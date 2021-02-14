@@ -1,0 +1,231 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    }
+header{
+    width: 375pt;
+    height: 60pt;
+    background-color: #180e0c;
+    border: 1pt;
+    border-color: #707070;
+    display: flex;
+    justify-content: space-between;
+}
+
+.auto{
+    width: 93pt;
+    height: 27pt;
+    margin-left: 36pt;
+    margin-top: 17pt;
+    color: #FFFFFF;
+}
+
+.list{
+    margin-right: 15pt;
+    margin-top: 3pt;
+    color: #FFFFFF;
+}
+
+.img1{
+    width: 375pt;
+    height: 134pt;
+    margin: 0px;
+}
+
+/*MAIN*/
+main{
+    width: 375pt;
+    height: 550pt;
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:"AAA BBB"
+                         "CCC DDD"
+}
+/*MAIN PRIMER CUADRO*/
+.pousuere{
+    grid-area: AAA;
+    width: 146pt;
+    height: 128pt;
+    margin-left: 15pt;
+    margin-top: 25pt;
+}
+
+.etian{
+    grid-area: AAA;
+    width: 146pt;
+    height: 30pt;
+    margin-left: 15pt;
+    margin-top: 160pt;
+    color: #000000;
+}
+
+.dol{
+    grid-area: AAA;
+    width: 146pt;
+    height: 49,06pt;
+    margin-left: 15pt;
+    margin-top: 180pt;
+    color: #000000;
+
+}
+
+/*MAIN SEGUNDO CUADRO*/
+.ultrices{
+    grid-area: BBB;
+    width: 146pt;
+    height: 128pt;
+    margin-left: 15pt;
+    margin-top: 25pt;
+}
+.fucse{
+    grid-area: BBB;
+    width: 146pt;
+    height: 30pt;
+    margin-left: 15pt;
+    margin-top: 160pt;
+    color: #000000;
+}
+.sit{
+    grid-area: BBB;
+    width: 146pt;
+    height: 49,06pt;
+    margin-left: 15pt;
+    margin-top: 180pt;
+    color: #000000;
+}
+
+/*MAIN TERCER CUADRO*/
+.dictum{
+    grid-area: CCC;
+    width: 146pt;
+    height: 128pt;
+    margin-left: 15pt;
+    margin-top: 5pt;
+}
+
+.donet{
+    grid-area: CCC;
+    width: 146pt;
+    height: 30pt;
+    margin-left: 15pt;
+    margin-top: 160pt;
+    color: #000000;
+}
+
+.tema{
+    grid-area: CCC;
+    width: 146pt;
+    height: 49,06pt;
+    margin-left: 15pt;
+    margin-top: 180pt;
+    color: #000000;
+}
+
+/*MAIN CUARTO CUADRO*/
+
+.luctus{
+    grid-area: DDD;
+    width: 146pt;
+    height: 128pt;
+    margin-left: 15pt;
+    margin-top: 5pt;
+}
+
+.maecenas{
+    grid-area: DDD;
+    width: 146pt;
+    height: 30pt;
+    margin-left: 15pt;
+    margin-top: 160pt;
+    color: #000000;
+}
+
+.conse{
+    grid-area: DDD;
+    width: 146pt;
+    height: 49,06pt;
+    margin-left: 15pt;
+    margin-top: 180pt;
+    color: #000000;
+}
+
+/*SECTION PRIMEIRA*/
+.primera{
+    width: 375pt;
+    height: 800pt;
+    background-color: #37201a;
+}
+/*titulo h2*/
+.praese{
+    width: 259pt;
+    height: 30pt;
+    font-size: 21pt;
+    color: #c27159;
+}
+
+
+/*SECTION SUP*/
+
+.sup{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "111 222"
+                         "333 444"
+                         "555 666";
+}
+
+/*PRIMER CUARTO*/
+
+.primer{
+    grid-area: 111;
+   
+}
+.parprimer{
+    grid-area: 222;
+}
+/*SEGUNDO CUARTO*/
+.segun{
+    grid-area: 333;
+    
+}
+.parsegun{
+    grid-area: 444;
+}
+/*TERCER CUARTO*/
+.tercer{
+    grid-area: 555;
+    
+}
+
+.partercer{
+    grid-area: 666;
+}
+
+.parraf1{
+    width: 70pt;
+    height: 70pt;
+}
+
+.parra1{
+    width: 70pt;
+    height: 70pt;
+}
+
+.par1{
+    width: 70pt;
+    height: 70pt;
+}
