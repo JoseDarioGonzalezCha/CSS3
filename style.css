@@ -180,12 +180,7 @@ main{
 /*SECTION SUP*/
 
 .sup{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "111 222"
-                         "333 444"
-                         "555 666";
+    
 }
 
 /*PRIMER CUARTO*/
